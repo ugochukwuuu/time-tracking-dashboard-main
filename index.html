@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+
+<body>
+  <main>
+    <div class="profile__column">
+      <div class="blue__column">
+        <img src="./images/image-jeremy.png" alt="black man smiling">
+        <div class="profile__text">
+          <p class="low__text">Report for</p>
+          <p class="name">Jeremy Robson</p>
+        </div>
+      </div>
+      <div class="timeframes">
+        <button class="daily-button buttton">Daily</button>
+        <button class="weekly-button buttton">Weekly</button>
+        <button class="monthly-button buttton">Monthly</button>
+      </div>
+    </div>
+    <div class="grid__container">
+      <div class="grid__item work">
+        <div class="grid__item-wrapper">
+          <div class="item__header">
+            <p class="item__name">Work</p>
+            <img src="./images/icon-ellipsis.svg" alt="cool hamburger thingy" class="hamburger__button">
+          </div>
+          <div class="recorded__time">
+            <p class="current__time">32hrs</p>
+            <p class="previous__time"><span class="previous__date">Last Week</span> - <span
+                class="previous__hr">36hrs</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid__item play">
+        <div class="grid__item-wrapper">
+          <div class="item__header">
+            <p class="item__name">Play</p>
+            <img src="./images/icon-ellipsis.svg" alt="cool hamburger thingy" class="hamburger__button">
+          </div>
+          <div class="recorded__time">
+            <p class="current__time">10hrs</p>
+            <p class="previous__time"><span class="previous__date">Last Week</span> - <span
+                class="previous__hr ">8hrs</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid__item study">
+        <div class="grid__item-wrapper">
+          <div class="item__header">
+            <p class="item__name">Study</p>
+            <img src="./images/icon-ellipsis.svg" alt="cool hamburger thingy" class="hamburger__button">
+          </div>
+          <div class="recorded__time">
+            <p class="current__time  study__current">4hrs</p>
+            <p class="previous__time"><span class="previous__date">Last Week</span> - <span
+                class="previous__hr">7hrs</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid__item exercise">
+        <div class="grid__item-wrapper">
+          <div class="item__header">
+            <p class="item__name">Exercise</p>
+            <img src="./images/icon-ellipsis.svg" alt="cool hamburger thingy" class="hamburger__button">
+          </div>
+          <div class="recorded__time">
+            <p class="current__time">4hrs</p>
+            <p class="previous__time"> <span class="previous__date">Last Week</span> - <span
+                class="previous__hr">5hrs</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid__item social">
+        <div class="grid__item-wrapper">
+          <div class="item__header">
+            <p class="item__name">Social</p>
+            <img src="./images/icon-ellipsis.svg" alt="cool hamburger thingy" class="hamburger__button">
+          </div>
+          <div class="recorded__time">
+            <p class="current__time">5hrs</p>
+            <p class="previous__time"><span class="previous__date">Last Week</span> - <span
+                class="previous__hr">10hrs</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid__item self-care">
+        <div class="grid__item-wrapper">
+          <div class="item__header">
+            <p class="item__name">Self Care</p>
+            <img src="./images/icon-ellipsis.svg" alt="cool hamburger thingy" class="hamburger__button">
+          </div>
+          <div class="recorded__time">
+            <p class="current__time  self-care__current">2hrs</p>
+            <p class="previous__time"><span class="previous__date">Last Week</span> - <span
+                class="previous__hr ">2hrs</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/practitionerofsorts"
+        target="_blank">practitionerofsorts/promise</a>.
+    </p>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>
